@@ -70,16 +70,13 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **Describe your setting, players, activity and goals here.**
 
-<span style="color:darkseagreen">
-
+```
 The interaction happens when buildings hold events with many sub-events happening at the same time in different rooms. For example, a university can hold a conference with multiple workshops focusing on different topics.
 
 Players include attendees and all kinds of other people, such as students going to classes, staff members, etc. The activities between the players can be crossing paths with each other, talking, etc.
 
 The goals for the each attendee will be trying to get to the right room in an environment that they are not familiar with.
-
-</span>
-
+```
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
@@ -91,14 +88,13 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 **Summarize feedback you got here.**
 
-<span style="color:darkseagreen">
+```
 
-I was in a breakout room discussion together with Yimeng Sun, 
-Renzhi Hu, Panda Xu and Songyu Du.
+I was in a breakout room discussion together with Yimeng Sun, Renzhi Hu, Panda Xu and Songyu Du.
 
 For the feedback, Most of the people agreed that this sounds like a solid plan. One person asked that whether I'm going to use GPS to let the device detect whether it's on the right path, which I think is a great question that I haven't considered yet. I answered that GPS is probably not precise enough with regard to paths inside a building and I might be attaching sensors in the hallways to make the detection instead.
 
-</span>
+```
 
 
 ## Part B. Act out the Interaction
