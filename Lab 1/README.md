@@ -111,8 +111,7 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 :point_down::point_down::point_down::point_down::point_down:
 
-One thing is 
-
+One thing is that seeing the color of the device is a little inconvenient because it sort of needs people to constantly look down to check on their ID card if people are wearing it as the way in the storyboard. But people could also hold the device in their hands though.
 
 :point_up::point_up::point_up::point_up::point_up:
 
@@ -120,7 +119,11 @@ One thing is
 
 :point_down::point_down::point_down::point_down::point_down:
 
+A few ideas came up to me:
 
+- When the players need to make a turn, there could be a blinking in the device to indicate the need.
+- Some players may don't need the instructions at all and find the light distracting, so there should be an off switch on the device.
+- If two players with the same destination encounters each other on the road, a special color of light (maybe yellow) can show up to help people connect.
 
 :point_up::point_up::point_up::point_up::point_up:
 
