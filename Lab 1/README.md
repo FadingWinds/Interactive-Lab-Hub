@@ -70,7 +70,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **Describe your setting, players, activity and goals here.**
 
-:point_down::point_down::point_down:
+:point_down::point_down::point_down::point_down::point_down:
 
 The interaction happens when buildings hold events with many sub-events happening at the same time in different rooms. For example, a university can hold a conference with multiple workshops focusing on different topics.
 
@@ -78,25 +78,29 @@ Players include attendees and all kinds of other people, such as students going 
 
 The goals for the each attendee will be trying to get to the right room in an environment that they are not familiar with.
 
-:point_up::point_up::point_up:
+:point_up::point_up::point_up::point_up::point_up:
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 **Include a picture of your storyboard here**
 
+:point_down::point_down::point_down::point_down::point_down:
+
 ![image](Storyboard-PartA.jpg)
+
+:point_up::point_up::point_up::point_up::point_up:
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 **Summarize feedback you got here.**
 
-```
+:point_down::point_down::point_down::point_down::point_down:
 
 I was in a breakout room discussion together with Yimeng Sun, Renzhi Hu, Panda Xu and Songyu Du.
 
 For the feedback, Most of the people agreed that this sounds like a solid plan. One person asked that whether I'm going to use GPS to let the device detect whether it's on the right path, which I think is a great question that I haven't considered yet. I answered that GPS is probably not precise enough with regard to paths inside a building and I might be attaching sensors in the hallways to make the detection instead.
 
-```
+:point_up::point_up::point_up::point_up::point_up:
 
 
 ## Part B. Act out the Interaction
@@ -105,8 +109,20 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+:point_down::point_down::point_down::point_down::point_down:
+
+One thing is 
+
+
+:point_up::point_up::point_up::point_up::point_up:
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+:point_down::point_down::point_down::point_down::point_down:
+
+
+
+:point_up::point_up::point_up::point_up::point_up:
 
 ## Part C. Prototype the device
 
