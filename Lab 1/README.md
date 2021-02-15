@@ -70,7 +70,7 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **Describe your setting, players, activity and goals here.**
 
-<span style="color:green">
+<span style="color:darkseagreen">
 
 The interaction happens when buildings hold events with many sub-events happening at the same time in different rooms. For example, a university can hold a conference with multiple workshops focusing on different topics.
 
@@ -91,7 +91,14 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 **Summarize feedback you got here.**
 
+<span style="color:darkseagreen">
 
+I was in a breakout room discussion together with Yimeng Sun, 
+Renzhi Hu, Panda Xu and Songyu Du.
+
+For the feedback, Most of the people agreed that this sounds like a solid plan. One person asked that whether I'm going to use GPS to let the device detect whether it's on the right path, which I think is a great question that I haven't considered yet. I answered that GPS is probably not precise enough with regard to paths inside a building and I might be attaching sensors in the hallways to make the detection instead.
+
+</span>
 
 
 ## Part B. Act out the Interaction
