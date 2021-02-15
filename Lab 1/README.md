@@ -70,12 +70,15 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **Describe your setting, players, activity and goals here.**
 
->> The interaction happens when buildings hold events with many sub-events happening at the same time in different rooms. For example, a university can hold a conference with multiple workshops focusing on different topics.
+:point_down::point_down::point_down:
 
->> Players include attendees and all kinds of other people, such as students going to classes, staff members, etc. The activities between the players can be crossing paths with each other, talking, etc.
+The interaction happens when buildings hold events with many sub-events happening at the same time in different rooms. For example, a university can hold a conference with multiple workshops focusing on different topics.
 
->> The goals for the each attendee will be trying to get to the right room in an environment that they are not familiar with.
+Players include attendees and all kinds of other people, such as students going to classes, staff members, etc. The activities between the players can be crossing paths with each other, talking, etc.
 
+The goals for the each attendee will be trying to get to the right room in an environment that they are not familiar with.
+
+:point_up::point_up::point_up:
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 
