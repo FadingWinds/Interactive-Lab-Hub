@@ -86,7 +86,7 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 :point_down::point_down::point_down::point_down::point_down:
 
-![image](Storyboard-PartA.jpg)
+![Storyboard](Storyboard-PartA.jpg)
 
 :point_up::point_up::point_up::point_up::point_up:
 
@@ -124,6 +124,7 @@ A few ideas came up to me:
 - When the players need to make a turn, there could be a blinking in the device to indicate the need.
 - Some players may don't need the instructions at all and find the light distracting, so there should be an off switch on the device.
 - If two players with the same destination encounters each other on the road, a special color of light (maybe yellow) can show up to help people connect.
+- Just notice that Tinkerbelle allows sound outputs as well, so it would be nice to play a sound when the players are on the wrong road or arrive at the right room.
 
 :point_up::point_up::point_up::point_up::point_up:
 
@@ -134,16 +135,27 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
+
 **Give us feedback on Tinkerbelle.**
+
+:point_down::point_down::point_down::point_down::point_down:
+
+The Tinkerbelle is pretty easy to use, the only thing I realized is that if I use it on the mobile phone and click on the Jane Wren tab by mistake, the screen won't switch after I then click on the Tinkerbelle tab.
+
+:point_up::point_up::point_up::point_up::point_up:
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
 
+:point_right: Video link: https://drive.google.com/file/d/1-V8bnlsDRJjPn8rBvO_fSeKd7Ofz8s5w/view?usp=sharing :point_left:
+
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
+
+:point_right: Video link: https://drive.google.com/file/d/1bwHcqkKigwgRSM8nUfWb4pDPhLTvWtb-/view?usp=sharing :point_left:
 
 ## Part E. Costume the device
 
@@ -153,15 +165,37 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
+:point_down::point_down::point_down::point_down::point_down:
 
+![Sketch](Sketch-PartE.jpg)
+
+:point_up::point_up::point_up::point_up::point_up:
+
+**What concerns or opportunities are influencing the way you've designed the device to look?**
+
+:point_down::point_down::point_down::point_down::point_down:
+
+- The lighting area shouldn't be overlapped with the name or photo area for readability.
+- In the meantime, the lighting area shouldn't be too small either, it will be inconvenient if people need to search for the position of the light.
+- We shouldn't expect all people will need the assistance of our device, so people should be able to turn off the light easily.
+- The device itself should be something that is not too heavy to wear or take, so I think an ID card will be the most ideal appearence.
+
+:point_up::point_up::point_up::point_up::point_up:
 
 ## Part F. Record
 
 **Take a video of your prototyped interaction.**
 
+:point_right: Video link: https://drive.google.com/file/d/1Ik77Sy0Y9uvC13G0kTo6ALQJdQQV_Thp/view?usp=sharing :point_left:
+
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+
+:point_down::point_down::point_down::point_down::point_down:
+
+I was in a breakout room discussion together with Yimeng Sun, Renzhi Hu, Panda Xu and Songyu Du. A big thank you to all of them for providing the feedback and discuss ideas with me.
+
+:point_up::point_up::point_up::point_up::point_up:
 
 # Staging Interaction, Part 2 
 
