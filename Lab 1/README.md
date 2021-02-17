@@ -208,6 +208,18 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+:point_down::point_down::point_down::point_down::point_down:
+
+Yimeng Sun, Renzhi Hu, Panda Xu and Songyu Du provided me these valuable feedbacks:
+
+- The person wearing the ID card faces towards others, so the person might not see the light himself. May be better if change the user story, instead of navigating, to telling others (e.g. a security guard) that the person went into the wrong way.
+- Location tracking might not be so accurate in a building.
+- It's not clear how to set up the destination. It’s pretty often that people in a conference have to go back and forth between multiple rooms (More than one person gave me similar feedback).
+- The ID card can be connected with phone and embed more features, such as cashless payment, meet up with others, etc.
+- Maybe I can get rid of the upper part and simply make the whole badge as a big screen and display the user's name and picture digitally.
+
+:point_up::point_up::point_up::point_up::point_up:
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
