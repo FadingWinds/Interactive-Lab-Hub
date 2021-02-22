@@ -237,6 +237,13 @@ After Part 1, I've updated my previous idea, and here's the new storyboard:
 
 Several considerations about the device:
 
-- As mentioned previously, GPS probably won't work very well with regard to the 
+- As mentioned previously, GPS probably won't work very well with regard to the indoor environment. Thus I decided to attach transmitters to walls in hallways or rooms to send out signals that will be received by the sensor combined with the chip in the ID card to detect the correct route/destination.
+- I didn't use the suggestion about including more features, connecting with phone or making the whole thing a big digital screen, because I still want this device to be light and simple.
+- It could be hard to see the lighting area while wearing the ID card, so I added sound and vibration effects for convenience. The lighting feature was kept for people with hearing disabilities, and other people such as security member can also see the light and provide directional guidance if the user is on the wrong route.
+- Attendees usually have several meetings in a day at different locations, so the chip of the ID card will store calendar information attached specifically to this user and provide guidance accordingly.
+
+The new prototype video:
+
+
 
 :point_up::point_up::point_up::point_up::point_up:
