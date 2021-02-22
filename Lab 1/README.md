@@ -228,3 +228,15 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+
+:point_down::point_down::point_down::point_down::point_down:
+
+After Part 1, I've updated my previous idea, and here's the new storyboard:
+
+![Storyboard](Storyboard-Part2.jpg)
+
+Several considerations about the device:
+
+- As mentioned previously, GPS probably won't work very well with regard to the 
+
+:point_up::point_up::point_up::point_up::point_up:
