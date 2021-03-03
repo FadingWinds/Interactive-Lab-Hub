@@ -61,12 +61,39 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+# -- Added Code Starts-- 
+text_visible = True
+clock_visible = True
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+# -- Added Code Ends --
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
+    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py
+    time_shown = time.strftime("%m/%d/%Y %H:%M:%S")
+    second_angle = (int(time.strftime("%S")) + 45) * 6
+    minute_angle = (int(time.strftime("%M")) + 45) * 6
+    hour_angle = (int(time.strftime("%H")) % 12 + 9) * 30
+    if text_visible:
+        draw.text((0.5, 0.5), time_shown, font=font, fill="#FFFFFF")
+    if clock_visible:
+        draw.pieslice((30, 40, 100, 110), start=second_angle-1, 
+            end=second_angle, outline="#0000FF")
+        draw.pieslice((30, 40, 100, 110), start=minute_angle-1, 
+            end=minute_angle, outline="#FFFF00")
+        draw.pieslice((30, 40, 100, 110), start=hour_angle-1, 
+            end=hour_angle, outline="#00FF00")
+        draw.arc((30, 40, 100, 110), start=0, end=360, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
+    if buttonA.value and not buttonB.value:
+        text_visible = not text_visible
+    if buttonB.value and not buttonA.value:
+        clock_visible = not clock_visible
     time.sleep(1)

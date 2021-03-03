@@ -61,8 +61,6 @@ This readme.md page in your own repository should be edited to include the work 
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
-**Note: I'm having issues with Lab Prep so will finish Part1 later. Sorry!**
-
 ## Part A. 
 ## Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once there create a python environment.
@@ -171,6 +169,9 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+
+:point_right: Video link: https://drive.google.com/file/d/1xXRLoeOBNHc1Wk8o02I2Dih4KEOYOawt/view?usp=sharing :point_left:
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
