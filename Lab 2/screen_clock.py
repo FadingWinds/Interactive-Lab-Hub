@@ -62,12 +62,20 @@ backlight.switch_to_output()
 backlight.value = True
 
 # -- Added Code Starts-- 
-text_visible = True
-clock_visible = True
+alarm_text_visible = False
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
+
+try:
+    alarm_hour, alarm_minute = input('Please enter the alarm time (HH MM): ').split(' ')
+except ValueError as e:
+    print('Input Not Acceptble')
+
+alarm_text = 'Alarm at ' + alarm_hour + ':' + alarm_minute
+alarm_blink = False
+alarm_color = False
 # -- Added Code Ends --
 
 while True:
@@ -79,21 +87,33 @@ while True:
     second_angle = (int(time.strftime("%S")) + 45) * 6
     minute_angle = (int(time.strftime("%M")) + 45) * 6
     hour_angle = (int(time.strftime("%H")) % 12 + 9) * 30
-    if text_visible:
-        draw.text((0.5, 0.5), time_shown, font=font, fill="#FFFFFF")
-    if clock_visible:
-        draw.pieslice((30, 40, 100, 110), start=second_angle-1, 
-            end=second_angle, outline="#0000FF")
-        draw.pieslice((30, 40, 100, 110), start=minute_angle-1, 
-            end=minute_angle, outline="#FFFF00")
-        draw.pieslice((30, 40, 100, 110), start=hour_angle-1, 
-            end=hour_angle, outline="#00FF00")
-        draw.arc((30, 40, 100, 110), start=0, end=360, fill="#FFFFFF")
+
+    draw.text((0.5, 0.5), time_shown, font=font, fill="#FFFFFF")
+    
+    draw.pieslice((30, 40, 100, 110), start=second_angle-1, 
+        end=second_angle, outline="#0000FF")
+    draw.pieslice((30, 40, 100, 110), start=minute_angle-1, 
+        end=minute_angle, outline="#FFFF00")
+    draw.pieslice((30, 40, 100, 110), start=hour_angle-1, 
+        end=hour_angle, outline="#00FF00")
+    draw.arc((30, 40, 100, 110), start=0, end=360, fill="#FFFFFF")
+    draw.regular_polygon((65, 75, 40), n_sides=12, outline="#FFFFFF")
+
+    if alarm_text_visible:
+        draw.text((110, 40), alarm_text, font=font, fill="#FFFFFF")
+
+    if int(time.strftime('%M')) == int(alarm_minute) and int(time.strftime('%H')) == int(
+        alarm_hour) and int(time.strftime('%S')) < 5:
+        alarm_blink = True
+    if alarm_blink:
+        if not alarm_color:
+            draw.rectangle((120, 65, 220, 110), fill='#FF0000')
+        alarm_color = not alarm_color
 
     # Display image.
     disp.image(image, rotation)
     if buttonA.value and not buttonB.value:
-        text_visible = not text_visible
+        alarm_text_visible = not alarm_text_visible
     if buttonB.value and not buttonA.value:
-        clock_visible = not clock_visible
-    time.sleep(1)
+        alarm_blink = False
+    time.sleep(0.3)

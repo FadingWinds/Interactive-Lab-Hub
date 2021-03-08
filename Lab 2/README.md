@@ -176,7 +176,42 @@ After that git will ask you to login to your github account to upload.
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-- Turn off backlight during the night
+- Dim backlight during the night
 - Add bedtime alarm clock
 - More visual effects for time
 
+## Prep for Part 2
+
+1. Pick up remaining parts for kit.
+
+2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+:point_down::point_down::point_down:
+
+Feedback can be found in discussions. Thanks Zhonghao Zhan, Beibei Lu, Jiayun Liu and Yanjun Zhou for providing the feedbacks!
+
+:point_up::point_up::point_up:
+
+
+# Lab 2 Part 2
+
+Pull Interactive Lab Hub updates to your repo.
+
+Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
+
+As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+
+:point_down::point_down::point_down:
+
+The updated version of the Clock has the following modification:
+
+- The outline of the clock becomes a bit fancier
+- The user can input time in the console to set up an alarm, and when it's the alarm time, the screen will start blinking red
+- The first button is in control of stopping the alarm, and the bottom button can change whether to display the current alarm time or not
+
+Video link: https://drive.google.com/file/d/1oUFmXAH7DAMgO7Iaho9siC6OoCmrCtnB/view?usp=sharing
+
+:point_up::point_up::point_up:
